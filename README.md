@@ -1,10 +1,13 @@
 <p align="center">
-    <img alt="Mandrill Logo" src="/assets/img/logo.png" width="300" />
+    <img alt="Mandrill Logo" src="/assets/img/logo.png" width="200" />
     <h3 align="center">Mandrill</h3>
     <p align="center">Another AI Bot, Set up in Minutes.</p>
     <p align="center">
         <a href="https://github.com/Clivern/Mandrill/actions/workflows/api.yml">
             <img src="https://github.com/Clivern/Mandrill/actions/workflows/api.yml/badge.svg"/>
+        </a>
+        <a href="https://github.com/clivern/Mandrill/releases">
+            <img src="https://img.shields.io/badge/Version-v0.1.0-red.svg">
         </a>
         <a href="https://github.com/Clivern/Mandrill/blob/main/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-Apache-blue.svg">
