@@ -6,8 +6,8 @@
         <a href="https://github.com/Clivern/Mandrill/actions/workflows/api.yml">
             <img src="https://github.com/Clivern/Mandrill/actions/workflows/api.yml/badge.svg"/>
         </a>
-        <a href="https://github.com/Clivern/Mandrill/actions/workflows/ui.yml">
-            <img src="https://github.com/Clivern/Mandrill/actions/workflows/ui.yml/badge.svg"/>
+        <a href="https://github.com/Clivern/Mandrill/blob/main/LICENSE">
+            <img src="https://img.shields.io/badge/LICENSE-Apache-blue.svg">
         </a>
     </p>
 </p>
