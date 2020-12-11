@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Mandrill Logo" src="/assets/img/logo.png" height="200" />
+    <img alt="Mandrill Logo" src="/assets/img/logo.png" width="300" />
     <h3 align="center">Mandrill</h3>
     <p align="center">Another AI Bot, Set up in Minutes.</p>
     <p align="center">
