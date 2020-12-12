@@ -22,6 +22,7 @@ def stop_request_if_authenticated(function):
         if request.user and request.user.is_authenticated:
             raise AccessForbidden(_("Error! Access forbidden for authenticated users."))
         return function(controller, request, *args, **kwargs)
+
     return wrap
 
 
@@ -30,6 +31,7 @@ def prevent_if_not_authenticated(function):
         if not request.user or not request.user.is_authenticated:
             raise AccessForbidden(_("Oops! Access forbidden."))
         return function(controller, request, *args, **kwargs)
+
     return wrap
 
 
@@ -37,5 +39,7 @@ def push_metric(metric, count):
     def wrapper(function):
         def wrap(controller, request, *args, **kwargs):
             return function(controller, request, *args, **kwargs)
+
         return wrap
+
     return wrapper

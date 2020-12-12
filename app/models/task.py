@@ -16,19 +16,20 @@ from django.db import models
 
 
 class Task(models.Model):
-
     PENDING = "pending"
     FAILED = "failed"
     SUCCEEDED = "succeeded"
 
     STATUS_CHOICES = (
-        ('pending', PENDING),
-        ('failed', FAILED),
-        ('succeeded', SUCCEEDED)
+        ("pending", PENDING),
+        ("failed", FAILED),
+        ("succeeded", SUCCEEDED),
     )
 
     uuid = models.CharField(max_length=60, db_index=True, verbose_name="UUID")
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="pending", verbose_name="Status")
+    status = models.CharField(
+        max_length=20, choices=STATUS_CHOICES, default="pending", verbose_name="Status"
+    )
     payload = models.TextField(verbose_name="payload")
     result = models.TextField(verbose_name="Result")
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Created at")

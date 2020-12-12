@@ -17,7 +17,7 @@ import os
 from app import APP_ROOT
 
 
-class FileSystem():
+class FileSystem:
     """FileSystem Class"""
 
     def read_file(self, file_path):

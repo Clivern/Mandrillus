@@ -23,14 +23,11 @@ from app.controllers.web.error import handler500 as handler500_view
 
 
 urlpatterns = [
-    path('', Home.as_view(), name='app.web.home'),
-    path('_health', Health.as_view(), name='app.web.health'),
-    path('_ready', Ready.as_view(), name='app.web.ready'),
-
+    path("", Home.as_view(), name="app.web.home"),
+    path("_health", Health.as_view(), name="app.web.health"),
+    path("_ready", Ready.as_view(), name="app.web.ready"),
     # Public v1 API
-    path('api/v1/', include([
-
-    ])),
+    path("api/v1/", include([])),
 ]
 
 handler404 = handler404_view

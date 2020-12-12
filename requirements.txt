@@ -7,4 +7,4 @@ django-rq==2.8.1
 jsonschema==4.19.1
 requests==2.31.0
 mysqlclient==2.2.0
-newrelic==9.1.1
+qdrant-client[fastembed]==1.6.4

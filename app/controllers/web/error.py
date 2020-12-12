@@ -27,9 +27,7 @@ def handler404(request, exception=None, template_name="templates/index.html"):
 
     if exception is not None:
         # Log exceptions only on debug mode
-        logger.debug("Route Not Found: {exception}".format(
-            exception=exception
-        ))
+        logger.debug("Route Not Found: {exception}".format(exception=exception))
 
     context = {
         "title": _("404 | {}").format(get_config("app_name", "Cattle")),
@@ -46,9 +44,7 @@ def handler500(request, exception=None, template_name="templates/index.html"):
     logger = Logger().get_logger(__name__)
 
     if exception is not None:
-        logger.error("Internal Server Error: {exception}".format(
-            exception=exception
-        ))
+        logger.error("Internal Server Error: {exception}".format(exception=exception))
 
     context = {
         "title": _("500 | {}").format(get_config("app_name", "Cattle")),
@@ -60,6 +56,6 @@ def handler500(request, exception=None, template_name="templates/index.html"):
 
 
 def csrf_failure(request, reason=""):
-    return JsonResponse({
-        "error": _("Error! Access forbidden due to invalid CSRF token.")
-    })
+    return JsonResponse(
+        {"error": _("Error! Access forbidden due to invalid CSRF token.")}
+    )

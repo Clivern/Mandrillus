@@ -22,6 +22,4 @@ class Home(View, Controller):
     """Home Page Controller"""
 
     def get(self, request):
-        return JsonResponse({
-            "status": "OK"
-        })
+        return JsonResponse({"status": "OK"})
