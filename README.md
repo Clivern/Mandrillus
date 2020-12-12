@@ -1,18 +1,7 @@
 <p align="center">
-    <img alt="Mandrill Logo" src="/assets/img/logo.png" width="250" />
+    <img alt="Mandrill Logo" src="/static/logo.png" width="250" />
     <h3 align="center">Mandrill</h3>
-    <p align="center">AI System To Train on Your Data, Set up in Minutes.</p>
-    <p align="center">
-        <a href="https://github.com/Clivern/Mandrill/actions/workflows/api.yml">
-            <img src="https://github.com/Clivern/Mandrill/actions/workflows/api.yml/badge.svg"/>
-        </a>
-        <a href="https://github.com/clivern/Mandrill/releases">
-            <img src="https://img.shields.io/badge/Version-v0.1.0-red.svg">
-        </a>
-        <a href="https://github.com/Clivern/Mandrill/blob/main/LICENSE">
-            <img src="https://img.shields.io/badge/LICENSE-Apache-blue.svg">
-        </a>
-    </p>
+    <p align="center">Serve LLM Models in Production for Optimal Performance and Cost.</p>
 </p>
 
 
@@ -36,16 +25,6 @@ If you discover a security vulnerability within Mandrill, please send an email t
 ## Contributing
 
 We are an open source, community-driven project so please feel free to join us. see the [contributing guidelines](CONTRIBUTING.md) for more details.
-
-
-## Credits
-
-Shoutout to these open source projects and their maintainers.
-
-- [Django.](https://www.djangoproject.com/)
-- [Django-RQ](https://github.com/rq/django-rq)
-- [Requests](https://github.com/psf/requests)
-- [and other projects ...](requirements.txt)
 
 
 ## License
