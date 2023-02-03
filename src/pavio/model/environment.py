@@ -24,15 +24,7 @@
 class Environment:
     """Environment Model"""
 
-    def __init__(
-        self,
-        id,
-        name,
-        path,
-        tags,
-        created_at,
-        updated_at
-    ):
+    def __init__(self, id, name, path, tags, created_at, updated_at):
         """Class Constructor"""
         self._id = id
         self._name = name
