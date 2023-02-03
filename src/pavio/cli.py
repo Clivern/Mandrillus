@@ -25,8 +25,8 @@ import click
 import logging, json, sys
 
 from pavio import __version__
-from pavio.model.environment import Environment
 from pavio.command.configs import Configs
+from pavio.model.environment import Environment
 from pavio.command.environments import Environments
 
 
