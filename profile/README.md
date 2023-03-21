@@ -1,3 +1,3 @@
 <p align="center">
-    <img alt="Chestnut Logo" src="/profile/spacewalk.jpg" width="100%" />
+    <img alt="Chestnut Logo" src="/profile/spacewalk.jpeg" width="100%" />
 </p>
