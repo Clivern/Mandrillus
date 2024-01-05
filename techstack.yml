@@ -2,7 +2,7 @@ repo_name: Clivern/Mandrillus
 report_id: ce728025727f348fd405cc09fcaa633a
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:24:27+00:00'
+timestamp: '2024-01-05T08:18:42+00:00'
 requested_by: Clivern
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Clivern/Mandrillus/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Clivern
   last_updated_on: 2020-12-11 22:17:31.000000000 Z
@@ -28,6 +29,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Clivern/Mandrillus/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Clivern
   last_updated_on: 2020-12-11 22:17:31.000000000 Z
@@ -39,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Clivern/Mandrillus
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -48,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Clivern/Mandrillus/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Clivern
   last_updated_on: 2020-12-11 22:17:31.000000000 Z
@@ -59,6 +63,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/Clivern/Mandrillus/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Clivern
   last_updated_on: 2020-12-11 22:17:31.000000000 Z
